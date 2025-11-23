@@ -38,7 +38,7 @@ Check out the demo video instead:
 1️⃣ Create a virtual environment
 ```bash
 python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+source venv/bin/activate
 ```
 2️⃣ Install dependencies
 ```bash
@@ -46,7 +46,7 @@ pip install -r requirements.txt
 ```
 3️⃣ Set your OpenAI API key
 ```bash
-export OPENAI_API_KEY="yourkey"  # Windows: set OPENAI_API_KEY=yourkey
+export OPENAI_API_KEY="yourkey"
 ```
 4️⃣ Run the server
 ```bash

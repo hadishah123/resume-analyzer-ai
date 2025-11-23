@@ -1,37 +1,66 @@
 # AI Resume Analyzer — Backend (FastAPI + NLP)
 
-This is the backend portion of the AI Resume Analyzer project.
+🎥 Demo Video
 
-## 🚀 Features
-- Extract text from PDF/DOCX resumes
-- NLP keyword extraction using KeyBERT
-- Resume vs Job Description matching using Sentence Transformers
-- AI-generated suggestions using GPT (OpenAI)
-- Fully CORS-enabled for frontend (React / Vite)
+⚠️ High memory requirements prevent global deployment.
 
-## ▶️ How to Run
+Check out the demo video instead:
 
-### 1. Create virtual environment 
+<video src="./frontend/public/projectDemo.mp4" width="600" controls 
+  muted 
+  controlsList>
+</video>
+
+## ✨ Features
+
+- 📄 Resume Text Extraction – Supports PDF & DOCX
+- 🔑 Keyword Extraction – NLP-driven insights using KeyBERT
+- 🤝 Resume vs Job Description Matching – Powered by Sentence Transformers
+- 💡 AI Suggestions – Personalized resume improvements via OpenAI GPT
+- ⚡ Frontend-ready – Fully CORS-enabled for React/Vite integration
+
+## 🛠 Tech Stack
+
+- FastAPI – Lightning-fast Python API framework
+- KeyBERT – Keyword extraction from resumes
+- Sentence Transformers – Resume vs Job Description similarity
+- OpenAI GPT – AI-driven suggestions
+- PDF/DOCX parsing – Extract text from resumes
+
+## 💡 Use Cases
+
+- Recruitment platforms
+- Career coaching & resume improvement tools
+- Job matching applications
+- Personal resume assistants
+
+## ⚡ Quick Start
+1️⃣ Create a virtual environment
 ```bash
 python -m venv venv
-source venv/bin/activate # Windows: venv\Scripts\activate
+source venv/bin/activate  # Windows: venv\Scripts\activate
 ```
-
-### 2. Install dependencies
+2️⃣ Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
-
-### 3. Set OPENAI API key
+3️⃣ Set your OpenAI API key
 ```bash
-export OPENAI_API_KEY="yourkey"
+export OPENAI_API_KEY="yourkey"  # Windows: set OPENAI_API_KEY=yourkey
 ```
-
-### 4. Start server
+4️⃣ Run the server
 ```bash
 uvicorn app.main:app --reload --port 8000
 ```
-
-### API docs available at:
-
+5️⃣ Explore API docs
+```bash
 http://localhost:8000/docs
+```
+
+## 🤝 Contributing
+
+Pull requests are welcome!  
+For major changes, please open an issue first to discuss what you’d like to change.
+
+## 🪪 License
+MIT License © 2025 [Hadi Shah](https://github.com/hadishah123)

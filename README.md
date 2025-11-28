@@ -1,18 +1,11 @@
 # AI Resume Analyzer — Backend (FastAPI + NLP)
 
-<!-- 🎥 Demo Video
+🎥 Demo Video
 
-⚠️ High memory requirements prevent global deployment.
-
-Check out the demo video instead: -->
-
-<!-- <video src="./frontend/public/projectDemo.mp4" width="600" controls 
-  muted 
-  controlsList>
-</video> -->
+https://github.com/user-attachments/assets/0915645d-3fa3-40f0-bbec-db3bcf3fd505
 
 ## 📸 Preview
-![Chatting Screenshot](/frontend/public/Demo1.png)
+![Prompt Screenshot](/frontend/public/Demo1.png)
 
 ## ✨ Features
 

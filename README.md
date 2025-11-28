@@ -1,6 +1,6 @@
 # AI Resume Analyzer — Backend (FastAPI + NLP)
 
-🎥 Demo Video
+## 🎥 Demo Video
 
 https://github.com/user-attachments/assets/0915645d-3fa3-40f0-bbec-db3bcf3fd505
 

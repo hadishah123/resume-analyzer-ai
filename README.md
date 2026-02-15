@@ -30,9 +30,10 @@ https://github.com/user-attachments/assets/0915645d-3fa3-40f0-bbec-db3bcf3fd505
 - Job matching applications
 - Personal resume assistants
 
-## ⚡ Quick Start
+## ⚡ Quick Start for ../backend
 1️⃣ Create a virtual environment
 ```bash
+cd ./backend
 python -m venv venv
 source venv/bin/activate
 ```
@@ -48,11 +49,20 @@ export OPENAI_API_KEY="yourkey"
 ```bash
 uvicorn app.main:app --reload --port 8000
 ```
-5️⃣ Explore API docs
-```bash
-http://localhost:8000/docs
-```
+**backend is live at:** `http://127.0.0.1:8000/`
 
+## ⚡ Quick Start for ../frontend
+1️⃣ Go to the folder
+```bash
+cd ./frontend
+```
+2️⃣ Start the server
+```bash
+npm run dev
+```
+**frontend is live at:** `http://localhost:5173/`
+
+Note: for both frontend and backend use different terminal, and the status of backend will be shown at: `http://127.0.0.1:8000/`
 ## 🤝 Contributing
 
 Pull requests are welcome!  
